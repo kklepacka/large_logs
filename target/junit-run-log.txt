@@ -1,0 +1,53 @@
+[INFO] Processing build on daemon 16e38417
+[INFO] Scanning for projects...
+[INFO] BuildTimeEventSpy is registered.
+[INFO] 
+[INFO] Using the SmartBuilder implementation with a thread count of 7
+[INFO] Task segments : [test]
+[INFO] Build maximum degree of concurrency is 7
+[INFO] Total number of projects is 1
+[INFO] 
+[INFO] -----------------------< org:seleniumMvndTests >------------------------
+[INFO] Building seleniumMvndTests 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ seleniumMvndTests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ seleniumMvndTests ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ seleniumMvndTests ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\meinman\temp\projet_selenium\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ seleniumMvndTests ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ seleniumMvndTests ---
+[INFO] Surefire report directory: C:\Users\meinman\temp\projet_selenium\target\surefire-reports
+[INFO] [stdout] 
+[INFO] [stdout] -------------------------------------------------------
+[INFO] [stdout]  T E S T S
+[INFO] [stdout] -------------------------------------------------------
+[WARN] [stderr] Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 17436
+[WARN] [stderr] Only local connections are allowed.
+[WARN] [stderr] Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[WARN] [stderr] ChromeDriver was started successfully.
+[WARN] [stderr] [1679491564.187][WARNING]: This version of ChromeDriver has not been tested with Chrome version 111.
+[WARN] [stderr] [1679491564.194][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+[WARN] [stderr] mars 22, 2023 2:26:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[WARN] [stderr] INFO: Detected dialect: W3C
+[INFO] [stdout] 
+[INFO] [stdout] Results :
+[INFO] [stdout] 
+[INFO] [stdout] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] [stdout] 
+[INFO] Segment walltime 5 s, segment projects service time 5 s, effective/maximum degree of concurrency 1,00/7
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.333 s (Wall Clock)
+[INFO] Finished at: 2023-03-22T14:26:07+01:00
+[INFO] ------------------------------------------------------------------------
