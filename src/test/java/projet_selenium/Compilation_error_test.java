@@ -15,7 +15,7 @@ public class ExampleTest {
     public void testSubtraction() {
         int a = 5;
         int b = 2;
-        int result = a - b
+        int result = a - b;
         assertEquals(3, result);
     }
 }
